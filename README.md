@@ -1,4 +1,4 @@
-### RT-Cadmium: Blinky ###
+### RT-Cadmium: SelfDrivingBot ###
 
 See SelfDrivingBot_Formal_Project_Description.docx for a complete description of the model.
 
@@ -29,7 +29,7 @@ SVEC (Simulation Visualization for Embedded Cadmium) is a python GUI that parses
 
 If your target platform *is not* the Nucleo-STM32F401, you will need to change the COMPILE_TARGET / FLASH_TARGET in the make file.
 
-> cd RT-Cadmium-Blinky/top_model/
+> cd SelfDrivingBot/top_model/
 
 > make clean; make embedded; make flash;
 
